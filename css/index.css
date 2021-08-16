@@ -108,8 +108,7 @@ h2 {
 .contact form dl dd input,
 .contact form dl dd textarea,
 .contact form dl dd select {
-  /* width: 100% と padding: 10px が干渉してしまうのを防ぐ */
-  box-sizing: border-box; /* border と padding を 幅と高さに含めます */
+  box-sizing: border-box; 
   border: 1px solid #d2d2d2;
   border-radius: 3px;
   padding: 10px;
