@@ -1,0 +1,143 @@
+@charset "UTF-8";
+
+/***************
+  main
+****************/
+
+main {
+  margin: 0 auto 100px;
+  overflow: hidden;
+  width: 1000px;
+}
+
+.moreLink a {
+  border: 1px solid;
+  border-radius: 3px;
+  color: #90BE59;
+  display: block;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* product */
+
+.product {
+  float: left;
+  width: 600px;
+}
+
+.product .productList li {
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.product .productList li .image {
+  float: left;
+  margin-right: 30px;
+}
+
+.product .productList li .image img {
+  width: 200px;
+}
+
+.product .productList li .info h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.product .productList li .info .summary {
+  margin-bottom: 10px;
+}
+
+/* news */
+
+.news {
+  float: right;
+  width: 300px;
+}
+
+.news .newsList li {
+  margin-bottom: 30px;
+}
+
+.news .newsList li .date {
+  color: #aaa;
+  font-size: 10px;
+}
+
+/* contact */
+
+.contact {
+  background: #fafafa;
+  padding: 50px 0;
+}
+
+.contact h2 {
+  font-size: 30px;
+  text-align: center;
+}
+
+.contact form {
+  margin: 30px auto 0;
+  width: 600px;
+}
+
+.contact form dl {
+  margin-bottom: 30px;
+}
+
+.contact form dl dt {
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+
+.contact form dl.required dt:after {
+  color: #f30;
+  content: "*必須";
+  font-size: 10px;
+  margin-left: 10px;
+  vertical-align: super;
+}
+
+.contact form dl dd input,
+.contact form dl dd textarea,
+.contact form dl dd select {
+  /* width: 100% と padding: 10px が干渉してしまうのを防ぐ */
+  box-sizing: border-box; /* border と padding を 幅と高さに含めます */
+  border: 1px solid #d2d2d2;
+  border-radius: 3px;
+  padding: 10px;
+  width: 100%;
+}
+
+.contact form dl dd textarea {
+  height: 200px;
+}
+
+.contact form dl dd select {
+  background: #fff;
+  height: 46px;
+}
+
+.contact form .buttonArea {
+  text-align: center;
+}
+
+.contact form .buttonArea button {
+  background-color: #90BE59;
+  border: none;
+  border-radius: 3px;
+  box-shadow: 2px 2px #1a6ea0;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 8px 0 10px;
+  text-decoration: none;
+  width: 200px;
+}

@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+/***************
+  common
+****************/
+
+main {
+  margin: 0 auto;
+  padding: 40px 0;
+  width: 1000px;
+}
+
+main.thin {
+  width: 700px;
+}
+
+main h1 {
+  color: #677;
+  font-size: 32px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+/* localNavigation */
+
+.localNavigation {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.localNavigation li {
+  display: inline-block;
+  margin: 0 20px;
+}
+
+.localNavigation li a {
+  text-decoration: none;
+}
+
+/***************
+  news page
+****************/
+
+.news .year {
+  font-size: 23px;
+  margin-bottom: 20px;
+  color: #aaa;
+}
+
+.news .newsList article {
+  margin-bottom: 80px;
+}
+
+.news .newsList article h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.news .newsList article .summary p {
+  font-size: 15px;
+  margin-bottom: 1em;
+}
+
+.news .newsList article .summary img {
+  width: 100%;
+}
